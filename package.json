@@ -1,0 +1,23 @@
+{
+  "name": "temp-config",
+  "version": "1.0.0",
+  "description": "Temporary config files for openmrs-esm-patient-chart layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldkibet/temp-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donaldkibet/temp-config/issues"
+  },
+  "homepage": "https://github.com/donaldkibet/temp-config#readme",
+  "devDependencies": {
+    "serve": "^12.0.0"
+  }
+}

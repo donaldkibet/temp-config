@@ -1,0 +1,40 @@
+{
+    "@openmrs/esm-patient-chart-app": {
+        "extensions": {
+            "patient-chart-dashboard-slot": {
+                "order": [
+                    "charts-summary-dashboard",
+                    "clinical-view-summary-dashboard",
+                    "results-summary-dashboard",
+                    "medications-summary-dashboard",
+                    "test-results-summary-dashboard",
+                    "notes-summary-dashboard",
+                    "allergies-summary-dashboard",
+                    "conditions-summary-dashboard",
+                    "immunization-summary-dashboard",
+                    "attachments-results-summary-dashboard",
+                    "programs-summary-dashboard",
+                    "appointments-summary-dashboard",
+                    "forms-summary-dashboard"
+                ]
+            },
+            "patient-chart-summary-dashboard-slot": {
+                "order" : [
+                    "programs-overview-widget",
+                    "active-medications-widget",
+                    "test-results-summary-widget",
+                    "biometrics-overview-widget",
+                    "vitals-overview-widget",
+                    "forms-widget",
+                    "conditions-overview-widget",
+                    "notes-overview-widget",
+                    "appointments-overview-widget",
+                    "allergies-overview-widget",
+                    "immunization-overview-widget",
+                    "patient-clinical-view-overview",
+                    "attachments-overview-widget"
+                ]
+            }
+        }
+    }
+}
